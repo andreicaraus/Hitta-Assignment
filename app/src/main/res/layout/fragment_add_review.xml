@@ -53,7 +53,7 @@
             style="@style/AddReviewContentEditText"
             android:gravity="top|start"
             android:hint="@string/add_more_details"
-            android:inputType="textMultiLine|textNoSuggestions"
+            android:inputType="textMultiLine|textNoSuggestions|textCapSentences"
             android:maxLines="8"
             android:minLines="4"
             app:layout_constraintEnd_toEndOf="parent"
