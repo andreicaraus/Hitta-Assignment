@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34AFF4</color>
+    <color name="colorPrimaryDark">#287BBD</color>
+    <color name="colorAccent">#34AFF4</color>
+
+    <color name="section_header">#333333</color> <!--51 51 51 -->
+    <color name="review_info">#9B9B9B</color><!--155 155 155 -->
+    <color name="reviewer_image_background">#CCCCCC</color> <!--204 204 204 -->
+    <color name="rating_bar_empty">#D8D8D8</color>
+    <color name="rating_bar_full">#FECD01</color>
+    <color name="rate_text">#4A4A4A</color> <!--74 74 74-->
+    <color name="separator">#EFEFEF</color> <!-- 239 239 239 -->
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="azure">#039BEF</color>
+    <color name="dark_grey">#282829</color>
+    <color name="warm_grey">#8C8C8C</color>
+</resources>

@@ -1,0 +1,132 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ReviewsSection">
+        <item name="android:textSize">@dimen/text_size_20</item>
+        <item name="android:textColor">@color/section_header</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+    <style name="ReviewSectionHeader">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ReviewTotalScore">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ReviewerName">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ReviewerComment">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="ReviewInfo">
+        <item name="android:textSize">@dimen/text_size_13</item>
+        <item name="android:textColor">@color/review_info</item>
+        <item name="android:layout_marginStart">@dimen/review_section_info_text_start_margin</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ReviewActionText">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:textColor">@color/azure</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="RatingBarSmall" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:progressTint">@color/rating_bar_full</item>
+        <item name="android:secondaryProgressTint">@android:color/transparent</item>
+        <item name="android:progressBackgroundTint">@color/rating_bar_empty</item>
+        <item name="android:stepSize">1</item>
+        <item name="android:isIndicator">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:progressDrawable">@drawable/rating_bar_small</item>
+    </style>
+
+    <style name="RatingBarBig" parent="Widget.AppCompat.RatingBar">
+        <item name="android:progressTint">@color/rating_bar_full</item>
+        <item name="android:secondaryProgressTint">@android:color/transparent</item>
+        <item name="android:progressBackgroundTint">@color/rating_bar_empty</item>
+        <item name="android:stepSize">1</item>
+        <item name="android:isIndicator">false</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:numStars">5</item>
+        <item name="android:progressDrawable">@drawable/rating_bar_big</item>
+    </style>
+
+    <style name="Separator">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">@dimen/review_section_separator_top_margin</item>
+        <item name="android:background">@color/separator</item>
+    </style>
+
+    <style name="ReviewerImage">
+        <item name="android:layout_width">@dimen/review_image_size</item>
+        <item name="android:layout_height">@dimen/review_image_size</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:background">@drawable/reviewer_background</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:tint">@color/white</item>
+        <item name="android:src">@drawable/account</item>
+    </style>
+
+    <style name="AddReviewScoreText">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/review_info</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <style name="AddReviewContentEditText">
+        <item name="android:textSize">@dimen/text_size_17</item>
+        <item name="android:textColorHint">@color/review_info</item>
+        <item name="android:textColor">@color/rate_text</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">11dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:letterSpacing">-0.01</item>
+    </style>
+
+    <style name="AddReviewSeparator" parent="Separator">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+    </style>
+
+</resources>

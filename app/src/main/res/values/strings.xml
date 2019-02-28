@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Hitta Assignment</string>
+    <string name="your_review">Your review</string>
+    <string name="reviews">Reviews</string>
+    <string name="reviews_with_company_name">Reviews - %1$2s</string>
+    <string name="review_with_company_name">Review - %1$2s</string>
+    <string name="view_all_reviews">View all reviews</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="share_experience">Share your experience to help others</string>
+    <string name="rate_review">Rate and review</string>
+    <string name="describe_your_experience">Describe your experience</string>
+    <string name="your_name">Your name</string>
+    <string name="add_more_details">Add more details on your experience…</string>
+    <string name="save">Save</string>
+    <string name="dialog_title">Thank for your review</string>
+    <string name="dialog_message">You\'re helping others make smarter decisions every day.</string>
+    <string name="dialog_button">Okay!</string>
+    <string name="minutes_ago">%1$2smin ago - hitta.se</string>
+    <string name="hours_ago">%1$2sh ago - hitta.se</string>
+    <string name="days_ago">%1$2sd ago - hitta.se</string>
+
+    <string name="rate_score_1">I hated it</string>
+    <string name="rate_score_2">I didn\'t like it</string>
+    <string name="rate_score_3">It was OK</string>
+    <string name="rate_score_4">I liked it</string>
+    <string name="rate_score_5">I loved it</string>
+
+    <!-- mocked data -->
+    <string name="review_1_name">Anonym</string>
+    <string name="review_1_info">12h ago - hitta.se</string>
+    <string name="review_1_comment">Liked it very much - probably one of the best thai restaurant in the city - recommend!</string>
+
+    <string name="review_2_name">Jenny Svensson</string>
+    <string name="review_2_info">1d ago - hitta.se</string>
+    <string name="review_2_comment">Maybe a bit too fast food. I personally dislike that. Good otherwise.</string>
+
+    <string name="review_3_name">happy56</string>
+    <string name="review_3_info">1d ago - yelp.com</string>
+    <string name="review_3_comment">Super good! Love the food!</string>
+    <string name="latest_reviews">Latest reviews</string>
+    <string name="reviews_mock_info">from 27 ratings</string>
+    <string name="reviews_mock_total_score">4.1</string>
+</resources>

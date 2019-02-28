@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/RatingBarBig"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rate_text"
+            style="@style/AddReviewScoreText"
+            android:text="@string/rate_score_5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rating_bar" />
+
+        <View
+            android:id="@+id/rate_score_separator"
+            style="@style/AddReviewSeparator"
+            android:layout_marginTop="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rate_text" />
+
+        <EditText
+            android:id="@+id/name_edit_text"
+            style="@style/AddReviewContentEditText"
+            android:hint="@string/your_name"
+            android:inputType="textCapWords|textNoSuggestions"
+            android:nextFocusForward="@id/comment_edit_text"
+            android:paddingBottom="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/rate_score_separator"
+            app:layout_constraintTop_toBottomOf="@id/rate_score_separator" />
+
+        <View
+            android:id="@+id/name_separator"
+            style="@style/AddReviewSeparator"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/name_edit_text" />
+
+        <EditText
+            android:id="@+id/comment_edit_text"
+            style="@style/AddReviewContentEditText"
+            android:gravity="top|start"
+            android:hint="@string/add_more_details"
+            android:inputType="textMultiLine|textNoSuggestions"
+            android:maxLines="8"
+            android:minLines="4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/name_separator"
+            app:layout_constraintTop_toBottomOf="@id/name_separator" />
+
+        <View
+            android:id="@+id/comment_separator"
+            style="@style/AddReviewSeparator"
+            android:layout_marginTop="14dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/comment_edit_text" />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

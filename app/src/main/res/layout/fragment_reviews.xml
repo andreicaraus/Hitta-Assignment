@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingStart="@dimen/review_section_start_padding"
+            android:paddingTop="@dimen/review_section_top_padding"
+            android:paddingEnd="@dimen/review_section_end_padding"
+            android:paddingBottom="@dimen/review_section_bottom_padding">
+
+            <TextView
+                android:id="@+id/reviews_text"
+                style="@style/ReviewsSection"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/reviews"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/total_rating_mock_text"
+                style="@style/ReviewTotalScore"
+                android:layout_width="@dimen/review_image_size"
+                android:layout_height="@dimen/review_image_size"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/total_rating_background"
+                android:gravity="center"
+                android:text="@string/reviews_mock_total_score"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/reviews_text" />
+
+            <TextView
+                style="@style/ReviewInfo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="@string/reviews_mock_info"
+                app:layout_constraintBaseline_toBaselineOf="@id/total_rating_mock_text"
+                app:layout_constraintEnd_toStartOf="@+id/view_all_reviews_top_mock_text"
+                app:layout_constraintStart_toEndOf="@id/total_rating_mock_text" />
+
+            <TextView
+                android:id="@+id/view_all_reviews_top_mock_text"
+                style="@style/ReviewActionText"
+                android:text="@string/view_all_reviews"
+                app:layout_constraintBaseline_toBaselineOf="@id/total_rating_mock_text"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <View
+                android:id="@+id/reviews_section_separator"
+                style="@style/Separator"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/total_rating_mock_text" />
+
+            <TextView
+                android:id="@+id/your_review_header_text"
+                style="@style/ReviewsSection"
+                android:text="@string/your_review"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/reviews_section_separator"
+                tools:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/your_review_image"
+                style="@style/ReviewerImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/your_review_header_text" />
+
+            <TextView
+                android:id="@+id/your_review_title_text"
+                style="@style/ReviewerName"
+                android:text="@string/rate_review"
+                app:layout_constraintBottom_toTopOf="@+id/your_review_info_text"
+                app:layout_constraintEnd_toStartOf="@+id/dots_image"
+                app:layout_constraintStart_toEndOf="@id/your_review_image"
+                app:layout_constraintTop_toTopOf="@id/your_review_image" />
+
+            <RatingBar
+                android:id="@+id/your_review_small_rating_bar"
+                style="@style/RatingBarSmall"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@id/your_review_image"
+                app:layout_constraintStart_toStartOf="@id/your_review_title_text"
+                app:layout_constraintTop_toBottomOf="@id/your_review_title_text"
+                tools:rating="2"
+                tools:visibility="gone" />
+
+            <TextView
+                android:id="@+id/your_review_info_text"
+                style="@style/ReviewInfo"
+                android:layout_marginStart="0dp"
+                android:text="@string/share_experience"
+                app:layout_constraintBottom_toBottomOf="@id/your_review_image"
+                app:layout_constraintStart_toEndOf="@id/your_review_small_rating_bar"
+                app:layout_constraintTop_toBottomOf="@id/your_review_title_text" />
+
+            <TextView
+                android:id="@+id/your_review_comment_text"
+                style="@style/ReviewerComment"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/your_review_title_text"
+                app:layout_constraintTop_toBottomOf="@id/your_review_info_text"
+                tools:text="Best place ever" />
+
+            <TextView
+                android:id="@+id/your_review_describe_text"
+                style="@style/ReviewActionText"
+                android:layout_marginTop="9dp"
+                android:text="@string/describe_your_experience"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="@id/your_review_title_text"
+                app:layout_constraintTop_toBottomOf="@id/your_review_info_text"
+                tools:visibility="visible" />
+
+            <RatingBar
+                android:id="@+id/your_review_big_rating_bar"
+                style="@style/RatingBarBig"
+                android:paddingStart="-9dp"
+                android:paddingTop="15dp"
+                app:layout_constraintStart_toStartOf="@id/your_review_title_text"
+                app:layout_constraintTop_toBottomOf="@id/your_review_title_text"
+                tools:rating="0" />
+
+            <ImageView
+                android:id="@+id/dots_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dots_horizontal"
+                android:tint="@color/review_info"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/your_review_image" />
+
+            <View
+                android:id="@+id/your_review_section_separator"
+                style="@style/Separator"
+                android:layout_marginTop="0dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/your_review_big_rating_bar" />
+
+            <TextView
+                android:id="@+id/latest_reviews_mock_text"
+                style="@style/ReviewsSection"
+                android:text="@string/latest_reviews"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/your_review_section_separator" />
+
+            <ImageView
+                android:id="@+id/review_1_mock_image"
+                style="@style/ReviewerImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/latest_reviews_mock_text" />
+
+            <TextView
+                android:id="@+id/review_1_mock_title_text"
+                style="@style/ReviewerName"
+                android:text="@string/review_1_name"
+                app:layout_constraintBottom_toTopOf="@+id/review_1_mock_info_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/review_1_mock_image"
+                app:layout_constraintTop_toTopOf="@id/review_1_mock_image" />
+
+            <RatingBar
+                android:id="@+id/review_1_mock_small_rating_bar"
+                style="@style/RatingBarSmall"
+                android:rating="4"
+                app:layout_constraintBottom_toBottomOf="@id/review_1_mock_image"
+                app:layout_constraintStart_toStartOf="@id/review_1_mock_title_text"
+                app:layout_constraintTop_toBottomOf="@id/review_1_mock_title_text" />
+
+            <TextView
+                android:id="@+id/review_1_mock_info_text"
+                style="@style/ReviewInfo"
+                android:text="@string/review_1_info"
+                app:layout_constraintBottom_toBottomOf="@id/review_1_mock_image"
+                app:layout_constraintStart_toEndOf="@id/review_1_mock_small_rating_bar"
+                app:layout_constraintTop_toTopOf="@id/review_1_mock_small_rating_bar" />
+
+            <TextView
+                android:id="@+id/review_1_mock_comment_text"
+                style="@style/ReviewerComment"
+                android:text="@string/review_1_comment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/review_1_mock_small_rating_bar"
+                app:layout_constraintTop_toBottomOf="@id/review_1_mock_small_rating_bar" />
+
+            <View
+                android:id="@+id/review_1_mock_section_separator"
+                style="@style/Separator"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/review_1_mock_comment_text" />
+
+            <ImageView
+                android:id="@+id/review_2_mock_image"
+                style="@style/ReviewerImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/review_1_mock_section_separator" />
+
+            <TextView
+                android:id="@+id/review_2_mock_title_text"
+                style="@style/ReviewerName"
+                android:text="@string/review_2_name"
+                app:layout_constraintBottom_toTopOf="@+id/review_2_mock_info_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/review_2_mock_image"
+                app:layout_constraintTop_toTopOf="@id/review_2_mock_image" />
+
+            <RatingBar
+                android:id="@+id/review_2_mock_small_rating_bar"
+                style="@style/RatingBarSmall"
+                android:rating="3"
+                app:layout_constraintBottom_toBottomOf="@id/review_2_mock_image"
+                app:layout_constraintStart_toStartOf="@id/review_2_mock_title_text"
+                app:layout_constraintTop_toBottomOf="@id/review_2_mock_title_text" />
+
+            <TextView
+                android:id="@+id/review_2_mock_info_text"
+                style="@style/ReviewInfo"
+                android:text="@string/review_2_info"
+                app:layout_constraintBottom_toBottomOf="@id/review_2_mock_image"
+                app:layout_constraintStart_toEndOf="@id/review_2_mock_small_rating_bar"
+                app:layout_constraintTop_toTopOf="@id/review_2_mock_small_rating_bar" />
+
+            <TextView
+                android:id="@+id/review_2_mock_comment_text"
+                style="@style/ReviewerComment"
+                android:text="@string/review_2_comment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/review_2_mock_small_rating_bar"
+                app:layout_constraintTop_toBottomOf="@id/review_2_mock_small_rating_bar" />
+
+            <View
+                android:id="@+id/review_3_mock_section_separator"
+                style="@style/Separator"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/review_2_mock_comment_text" />
+
+            <ImageView
+                android:id="@+id/review_3_mock_image"
+                style="@style/ReviewerImage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/review_3_mock_section_separator" />
+
+            <TextView
+                android:id="@+id/review_3_mock_title_text"
+                style="@style/ReviewerName"
+                android:text="@string/review_3_name"
+                app:layout_constraintBottom_toTopOf="@+id/review_3_mock_info_text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/review_3_mock_image"
+                app:layout_constraintTop_toTopOf="@id/review_3_mock_image" />
+
+            <RatingBar
+                android:id="@+id/review_3_mock_small_rating_bar"
+                style="@style/RatingBarSmall"
+                android:rating="5"
+                app:layout_constraintBottom_toBottomOf="@id/review_3_mock_image"
+                app:layout_constraintStart_toStartOf="@id/review_3_mock_title_text"
+                app:layout_constraintTop_toBottomOf="@id/review_3_mock_title_text" />
+
+            <TextView
+                android:id="@+id/review_3_mock_info_text"
+                style="@style/ReviewInfo"
+                android:text="@string/review_3_info"
+                app:layout_constraintBottom_toBottomOf="@id/review_3_mock_image"
+                app:layout_constraintStart_toEndOf="@id/review_3_mock_small_rating_bar"
+                app:layout_constraintTop_toTopOf="@id/review_3_mock_small_rating_bar" />
+
+            <TextView
+                android:id="@+id/review_3_mock_comment_text"
+                style="@style/ReviewerComment"
+                android:text="@string/review_3_comment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/review_3_mock_small_rating_bar"
+                app:layout_constraintTop_toBottomOf="@id/review_3_mock_small_rating_bar" />
+
+            <TextView
+                android:id="@+id/view_all_reviews_bottom_mock_text"
+                style="@style/ReviewActionText"
+                android:layout_marginTop="30dp"
+                android:text="@string/view_all_reviews"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/review_3_mock_comment_text" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v4.widget.NestedScrollView>
+</layout>

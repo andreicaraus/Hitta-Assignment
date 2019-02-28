@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="review_section_start_padding">16dp</dimen>
+    <dimen name="review_section_end_padding">14dp</dimen>
+    <dimen name="review_section_top_padding">26dp</dimen>
+    <dimen name="review_section_bottom_padding">16dp</dimen>
+    <dimen name="review_section_separator_top_margin">15dp</dimen>
+    <dimen name="review_section_info_text_start_margin">9dp</dimen>
+
+    <dimen name="review_image_size">35dp</dimen>
+    <dimen name="review_total_score_corners">8dp</dimen>
+
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+</resources>
