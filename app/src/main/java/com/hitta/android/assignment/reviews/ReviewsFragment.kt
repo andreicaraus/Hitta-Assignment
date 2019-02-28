@@ -13,7 +13,9 @@ import com.hitta.android.assignment.databinding.FragmentReviewsBinding
 import com.hitta.android.assignment.main.MainActivity
 import com.hitta.android.assignment.utils.setupActionBar
 
-
+/**
+ * Displays a fragment with company name, other reviews and the possibility to add/edit a review
+ */
 class ReviewsFragment : BaseFragment(), ReviewsContract.View {
 
     private lateinit var presenter: ReviewsContract.Presenter

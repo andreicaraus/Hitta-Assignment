@@ -15,6 +15,9 @@ import com.hitta.android.assignment.reviews.ReviewsPresenter
 import com.hitta.android.assignment.utils.addFragmentToActivity
 import com.hitta.android.assignment.utils.replaceFragmentToActivity
 
+/**
+ * Activity in which the fragments will be added/replaced
+ */
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

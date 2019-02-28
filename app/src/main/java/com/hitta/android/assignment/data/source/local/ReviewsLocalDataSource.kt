@@ -8,6 +8,9 @@ import com.hitta.android.assignment.data.source.ReviewsDataSource.GetReviewListe
 import com.hitta.android.assignment.utils.AppExecutors
 import com.hitta.android.assignment.utils.Constants
 
+/**
+ * Implementation of data source as a database
+ */
 class ReviewsLocalDataSource private constructor(private val appExecutors: AppExecutors, private val reviewsDao: ReviewsDao) : ReviewsDataSource {
 
     override fun getReviewById(id: Int, listener: GetReviewListener) {

@@ -6,6 +6,9 @@ import android.support.v4.app.DialogFragment
 import android.support.v7.app.AlertDialog
 import com.hitta.android.assignment.utils.Constants
 
+/**
+ * Dialog that contains a title, a message and one button
+ */
 class SimpleDialogFragment : DialogFragment() {
 
     private var listener: DialogButtonListener? = null

@@ -7,6 +7,9 @@ import com.hitta.android.assignment.data.source.ReviewsRepository
 import com.hitta.android.assignment.utils.Constants
 import com.hitta.android.assignment.utils.ConversionUtils
 
+/**
+ * Listens for user actions from the ReviewsFragment, retrieves the data and updates the UI
+ */
 class ReviewsPresenter(private val reviewRepository: ReviewsRepository, private val view: ReviewsContract.View) : ReviewsContract.Presenter {
 
     private var companyName: String? = null

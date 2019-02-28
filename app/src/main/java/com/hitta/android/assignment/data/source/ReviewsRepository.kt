@@ -7,6 +7,9 @@ import com.hitta.android.assignment.data.source.ReviewsDataSource.GetReviewListe
 import com.hitta.android.assignment.data.source.local.ReviewsLocalDataSource
 import com.hitta.android.assignment.data.source.remote.ReviewsRemoteDataSource
 
+/**
+ * Implementation to load reviews related dependencies into a cache
+ */
 class ReviewsRepository private constructor(private val localDataSource: ReviewsLocalDataSource, private val remoteDataSource: ReviewsRemoteDataSource) : ReviewsDataSource {
 
     private var cachedCompanyName: String? = null

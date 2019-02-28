@@ -7,6 +7,9 @@ import com.hitta.android.assignment.data.source.local.ReviewsLocalDataSource
 import com.hitta.android.assignment.data.source.remote.ReviewsRemoteDataSource
 import com.hitta.android.assignment.utils.AppExecutors
 
+/**
+ * Provides a ReviewsRepository with it's dependencies
+ */
 object ReviewsRepositoryFactory {
     fun provideReviewsRepository(context: Context): ReviewsRepository =
             ReviewsRepository.getInstance(ReviewsLocalDataSource.getInstance(AppExecutors(), ReviewsDatabase.getInstance(context).reviewsDao()),

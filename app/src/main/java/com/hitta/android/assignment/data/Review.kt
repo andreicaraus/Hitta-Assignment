@@ -4,6 +4,9 @@ import android.arch.persistence.room.ColumnInfo
 import android.arch.persistence.room.Entity
 import android.arch.persistence.room.PrimaryKey
 
+/**
+ * Model class for a review
+ */
 @Entity(tableName = "reviews")
 data class Review(@PrimaryKey @ColumnInfo(name = "review_id") var id: Int,
                   @ColumnInfo(name = "company_name") var companyName: String?,

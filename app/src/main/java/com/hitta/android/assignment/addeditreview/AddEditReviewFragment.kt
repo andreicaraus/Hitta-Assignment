@@ -16,6 +16,9 @@ import com.hitta.android.assignment.utils.removeFocusFromInput
 import com.hitta.android.assignment.utils.setFocusOnInput
 import com.hitta.android.assignment.utils.setupActionBar
 
+/**
+ * Displays the fragment where the user can add or edit it's review
+ */
 class AddEditReviewFragment : BaseFragment(), AddEditReviewContract.View {
 
     private lateinit var presenter: Presenter

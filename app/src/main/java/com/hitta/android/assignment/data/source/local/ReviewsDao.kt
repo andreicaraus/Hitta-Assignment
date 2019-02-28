@@ -6,6 +6,9 @@ import android.arch.persistence.room.OnConflictStrategy
 import android.arch.persistence.room.Query
 import com.hitta.android.assignment.data.Review
 
+/**
+ * Data Access Object for reviews table
+ */
 @Dao
 interface ReviewsDao {
 

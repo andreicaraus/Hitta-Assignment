@@ -2,6 +2,9 @@ package com.hitta.android.assignment.data.source
 
 import com.hitta.android.assignment.data.Review
 
+/**
+ * Entry point to access review data
+ */
 interface ReviewsDataSource {
 
     fun getReviewById(id: Int, listener: GetReviewListener)

@@ -16,6 +16,9 @@ import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
 
+/**
+ * Implementation of data source that uses Retrofit to make the necessary requests
+ */
 class ReviewsRemoteDataSource private constructor() : ReviewsDataSource {
 
     override fun getReviewById(id: Int, listener: GetReviewListener) {

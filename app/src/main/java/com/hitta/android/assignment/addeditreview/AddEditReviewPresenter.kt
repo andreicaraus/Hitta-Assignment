@@ -7,6 +7,9 @@ import com.hitta.android.assignment.data.source.ReviewsDataSource
 import com.hitta.android.assignment.data.source.ReviewsRepository
 import com.hitta.android.assignment.utils.Constants
 
+/**
+ * Listens for user actions from the AddEditReviewFragment, retrieves the data and updates the UI
+ */
 class AddEditReviewPresenter(private val reviewRepository: ReviewsRepository, private val view: AddEditReviewContract.View) : AddEditReviewContract.Presenter, DialogButtonListener {
 
     private var ratingScore: Float? = null

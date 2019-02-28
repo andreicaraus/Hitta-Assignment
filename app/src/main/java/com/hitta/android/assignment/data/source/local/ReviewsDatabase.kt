@@ -6,6 +6,9 @@ import android.arch.persistence.room.RoomDatabase
 import android.content.Context
 import com.hitta.android.assignment.data.Review
 
+/**
+ * Room Database which contains the Review table
+ */
 @Database(entities = [Review::class], version = ReviewsDatabase.DATABASE_VERSION, exportSchema = false)
 abstract class ReviewsDatabase : RoomDatabase() {
 
