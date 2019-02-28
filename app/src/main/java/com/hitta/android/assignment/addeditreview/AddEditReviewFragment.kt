@@ -11,7 +11,6 @@ import com.hitta.android.assignment.common.BaseFragment
 import com.hitta.android.assignment.common.dialog.DialogButtonListener
 import com.hitta.android.assignment.databinding.FragmentAddReviewBinding
 import com.hitta.android.assignment.main.MainActivity
-import com.hitta.android.assignment.utils.Constants
 import com.hitta.android.assignment.utils.removeFocusFromInput
 import com.hitta.android.assignment.utils.setFocusOnInput
 import com.hitta.android.assignment.utils.setupActionBar
@@ -26,9 +25,12 @@ class AddEditReviewFragment : BaseFragment(), AddEditReviewContract.View {
     private lateinit var binding: FragmentAddReviewBinding
 
     companion object {
+
+        private const val FOCUS_COMMENT_KEY = "FOCUS_COMMENT_KEY"
+
         fun newInstance(focusOnComment: Boolean): AddEditReviewFragment {
             val bundle = Bundle()
-            bundle.putBoolean(Constants.FRAGMENT_ADD_REVIEW_FOCUS_COMMENT_KEY, focusOnComment)
+            bundle.putBoolean(FOCUS_COMMENT_KEY, focusOnComment)
             val fragment = AddEditReviewFragment()
             fragment.arguments = bundle
             return fragment
@@ -69,7 +71,7 @@ class AddEditReviewFragment : BaseFragment(), AddEditReviewContract.View {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        presenter.start(arguments?.getBoolean(Constants.FRAGMENT_ADD_REVIEW_FOCUS_COMMENT_KEY) ?: false)
+        presenter.start(arguments?.getBoolean(FOCUS_COMMENT_KEY) ?: false)
     }
 
     override fun setTopBarTitle(topBarTitle: String) {

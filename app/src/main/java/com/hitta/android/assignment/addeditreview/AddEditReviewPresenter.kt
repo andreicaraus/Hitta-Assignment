@@ -75,8 +75,8 @@ class AddEditReviewPresenter(private val reviewRepository: ReviewsRepository, pr
     override fun onRatingChanged(rating: Float, fromUser: Boolean) {
         ratingScore = rating
         if (fromUser) {
-            if (ratingScore!! < Constants.FRAGMENT_ADD_REVIEW_MINIMUM_RATING_VALUE)
-                view.setRatingBarValue(Constants.FRAGMENT_ADD_REVIEW_MINIMUM_RATING_VALUE)
+            if (ratingScore!! < MINIMUM_RATING_VALUE)
+                view.setRatingBarValue(MINIMUM_RATING_VALUE)
             handleNewRatingValue()
         }
     }
@@ -124,4 +124,7 @@ class AddEditReviewPresenter(private val reviewRepository: ReviewsRepository, pr
         view.setRatingText(view.getResources().getString(ratingText))
     }
 
+    companion object {
+        private const val MINIMUM_RATING_VALUE = 1f
+    }
 }

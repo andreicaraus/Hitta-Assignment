@@ -2,16 +2,6 @@ package com.hitta.android.assignment.utils
 
 object Constants {
 
-    const val FRAGMENT_ADD_REVIEW_MINIMUM_RATING_VALUE = 1f
-
-    const val FRAGMENT_ADD_REVIEW_FOCUS_COMMENT_KEY = "FRAGMENT_ADD_REVIEW_FOCUS_COMMENT_KEY"
-
-    const val DIALOG_TITLE_KEY = "DIALOG_TITLE_KEY"
-
-    const val DIALOG_MESSAGE_KEY = "DIALOG_MESSAGE_KEY"
-
-    const val DIALOG_BUTTON_KEY = "DIALOG_BUTTON_KEY"
-
     const val MOCK_DATABASE_REVIEW_ID = 1
 
     const val MOCK_COMPANY_ID = "ctyfiintu"
