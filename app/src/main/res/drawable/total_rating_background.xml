@@ -2,5 +2,4 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <solid android:color="@color/rating_bar_full" />
     <corners android:radius="@dimen/review_total_score_corners" />
-
 </shape>

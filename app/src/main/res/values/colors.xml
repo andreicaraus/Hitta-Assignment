@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#34AFF4</color>
+    <color name="colorPrimary">#34AFF4</color><!--52 175 244 -->
     <color name="colorPrimaryDark">#287BBD</color>
     <color name="colorAccent">#34AFF4</color>
 
     <color name="section_header">#333333</color> <!--51 51 51 -->
     <color name="review_info">#9B9B9B</color><!--155 155 155 -->
     <color name="reviewer_image_background">#CCCCCC</color> <!--204 204 204 -->
-    <color name="rating_bar_empty">#D8D8D8</color>
-    <color name="rating_bar_full">#FECD01</color>
+    <color name="rating_bar_empty">#D8D8D8</color><!--216 216 216 -->
+    <color name="rating_bar_small_empty">#DDDDDD</color><!--221 221 221 -->
+    <color name="rating_bar_full">#FECD01</color><!--254 205 1 -->
     <color name="rate_text">#4A4A4A</color> <!--74 74 74-->
     <color name="separator">#EFEFEF</color> <!-- 239 239 239 -->
 

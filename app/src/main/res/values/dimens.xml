@@ -3,7 +3,7 @@
     <dimen name="review_section_start_padding">16dp</dimen>
     <dimen name="review_section_end_padding">14dp</dimen>
     <dimen name="review_section_top_padding">26dp</dimen>
-    <dimen name="review_section_bottom_padding">16dp</dimen>
+    <dimen name="review_section_bottom_padding">26dp</dimen>
     <dimen name="review_section_separator_top_margin">15dp</dimen>
     <dimen name="review_section_info_text_start_margin">9dp</dimen>
 

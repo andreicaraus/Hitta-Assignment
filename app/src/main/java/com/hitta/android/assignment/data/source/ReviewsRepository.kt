@@ -59,8 +59,7 @@ class ReviewsRepository private constructor(private val localDataSource: Reviews
         Log.d(TAG, "saveReview")
         refreshCachedDataReview(review)
         localDataSource.saveReview(review)
-        //TODO
-//        remoteDataSource.saveReview(review)
+        remoteDataSource.saveReview(review)
     }
 
     private fun getCompanyNameFromRemoteDataSource(listener: GetCompanyListener) {

@@ -21,6 +21,7 @@
                 style="@style/ReviewsSection"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
                 android:text="@string/reviews"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -65,12 +66,12 @@
 
             <TextView
                 android:id="@+id/your_review_header_text"
-                style="@style/ReviewsSection"
+                style="@style/ReviewSectionHeader"
                 android:text="@string/your_review"
                 android:visibility="gone"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/reviews_section_separator"
-                tools:visibility="gone" />
+                tools:visibility="visible" />
 
             <ImageView
                 android:id="@+id/your_review_image"
@@ -95,7 +96,7 @@
                 app:layout_constraintStart_toStartOf="@id/your_review_title_text"
                 app:layout_constraintTop_toBottomOf="@id/your_review_title_text"
                 tools:rating="2"
-                tools:visibility="gone" />
+                tools:visibility="visible" />
 
             <TextView
                 android:id="@+id/your_review_info_text"
@@ -154,7 +155,7 @@
 
             <TextView
                 android:id="@+id/latest_reviews_mock_text"
-                style="@style/ReviewsSection"
+                style="@style/ReviewSectionHeader"
                 android:text="@string/latest_reviews"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/your_review_section_separator" />
