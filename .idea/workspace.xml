@@ -10,9 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f6f6db-fa31-43c6-9a82-5772d62131a3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/hitta/android/assignment/main/MainActivityTestK.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hitta/android/assignment/data/source/ReviewsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hitta/android/assignment/data/source/ReviewsRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/AllTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/Functionality.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -145,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1128" />
     <option name="height" value="831" />
@@ -489,7 +489,7 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="androidTest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="kotlin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="workingsuites" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="testsuites" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -590,7 +590,7 @@
       <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="workingsuites.Functionality" />
+      <option name="CLASS_NAME" value="testsuites.Functionality" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -895,8 +895,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1128" height="831" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1128" height="831" extended-state="1" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.50208336" side_tool="true" weight="0.3297568" />
       <window_info active="true" id="Project" order="1" sideWeight="0.49583334" visible="true" weight="0.42357275" />
@@ -928,7 +927,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/androidTest/kotlin/workingsuites/Functionality.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/Functionality.kt</url>
           <line>2</line>
           <properties />
           <option name="timeStamp" value="1" />
@@ -989,14 +988,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/workingsuites/AllTests.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/AllTests.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="21" column="20" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/workingsuites/UI.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
@@ -1194,7 +1193,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/workingsuites/Functionality.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/Functionality.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
