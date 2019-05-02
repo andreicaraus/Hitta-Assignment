@@ -10,6 +10,7 @@ import com.hitta.android.assignment.data.source.remote.ReviewsRemoteDataSource
 /**
  * Implementation to load reviews related dependencies into a cache
  */
+
 class ReviewsRepository private constructor(private val localDataSource: ReviewsLocalDataSource, private val remoteDataSource: ReviewsRemoteDataSource) : ReviewsDataSource {
 
     private var cachedCompanyName: String? = null
@@ -103,6 +104,4 @@ class ReviewsRepository private constructor(private val localDataSource: Reviews
                     instance ?: ReviewsRepository(localDataSource, remoteDataSource).apply { instance = this }
                 }
     }
-
-
 }
