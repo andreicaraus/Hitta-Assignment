@@ -10,8 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08f6f6db-fa31-43c6-9a82-5772d62131a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/util/mockDataConstants/MockReviewConfirmation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/base/rules/BaseTestRule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/base/rules/BaseTestRule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/SaveDescribeName.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewsMainScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewsMainScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/AllTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/AllTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/Functionality.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/Functionality.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,8 +83,50 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/base/rules/BaseTestRule.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="375">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewsMainScreen.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1520">
+              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+              <folding>
+                <element signature="e#52#964#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/util/mockDataConstants/MockReviewDetails.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+              <folding>
+                <element signature="e#52#409#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewDetailsScreen.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="221">
+              <caret line="33" column="14" selection-start-line="33" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -114,11 +163,9 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/util/mockDataConstants/MockReviewsMain.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/StarRating.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/util/util/NestedScrollTo.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/util/util/SetRating.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/hitta/android/assignment/data/source/ReviewsRepository.kt" />
-        <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewsMainScreen.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/screens/ReviewDetails.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/workingsuites/WorkingSuite.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/workingsuites/AllTests.kt" />
@@ -140,11 +187,14 @@
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/SaveDescribeName.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/FieldFocus.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewDetailsScreen.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewsMainScreen.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/base/rules/BaseTestRule.kt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1128" />
     <option name="height" value="831" />
@@ -157,12 +207,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="Hitta-Assignment" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+              <item name="Hitta-Assignment" type="58d84e3e:PackageViewProjectNode" />
+              <item name="app" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -185,6 +235,17 @@
               <item name="Hitta-Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Hitta-Assignment" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -494,21 +555,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hitta-Assignment" type="58d84e3e:PackageViewProjectNode" />
-              <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="device.picker.selection" value="Galaxy_Nexus_-_Android_8.0" />
+    <property name="device.picker.selection" value="Pixel_2_XL_-_Android_9.0" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
   </component>
   <component name="RunDashboard">
@@ -523,7 +573,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android Instrumented Tests.ReviewDetailsScreen">
+  <component name="RunManager" selected="Android Instrumented Tests.UI">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -584,12 +634,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functionality" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="ReviewConfirmationPo..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="testsuites.Functionality" />
+      <option name="CLASS_NAME" value="com.hitta.android.assignment.main.tests.ui.ReviewConfirmationPopUp" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -682,12 +732,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarRating" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="ReviewsMainScreen" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.hitta.android.assignment.main.tests.functionality.StarRating" />
+      <option name="CLASS_NAME" value="com.hitta.android.assignment.main.tests.ui.ReviewsMainScreen" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -731,12 +781,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="placeHolder()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="UI" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
-      <option name="TESTING_TYPE" value="3" />
+      <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="placeHolder" />
-      <option name="CLASS_NAME" value="com.hitta.android.assignment.main.tests.ui.ReviewDetailsScreen" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="testsuites.UI" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -780,12 +830,12 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="uiReviewDetailsScr...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+    <configuration name="uiReviewsConfirmat...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
       <module name="app" />
       <option name="TESTING_TYPE" value="3" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="uiReviewDetailsScreen" />
-      <option name="CLASS_NAME" value="com.hitta.android.assignment.main.tests.ui.ReviewDetailsScreen" />
+      <option name="METHOD_NAME" value="uiReviewsConfirmationPopUp" />
+      <option name="CLASS_NAME" value="com.hitta.android.assignment.main.tests.ui.ReviewConfirmationPopUp" />
       <option name="PACKAGE_NAME" value="" />
       <option name="EXTRA_OPTIONS" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
@@ -831,11 +881,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Android Instrumented Tests.UI" />
+        <item itemvalue="Android Instrumented Tests.ReviewConfirmationPo..." />
+        <item itemvalue="Android Instrumented Tests.uiReviewsConfirmat...()" />
         <item itemvalue="Android Instrumented Tests.ReviewDetailsScreen" />
-        <item itemvalue="Android Instrumented Tests.placeHolder()" />
-        <item itemvalue="Android Instrumented Tests.uiReviewDetailsScr...()" />
-        <item itemvalue="Android Instrumented Tests.StarRating" />
-        <item itemvalue="Android Instrumented Tests.Functionality" />
+        <item itemvalue="Android Instrumented Tests.ReviewsMainScreen" />
       </list>
     </recent_temporary>
   </component>
@@ -853,35 +903,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReviewDetailsScreen - 2019.05.02 at 10h 55m 59s.xml">
-      <configuration name="ReviewDetailsScreen" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="ReviewConfirmationPo___ - 2019.05.03 at 14h 58m 50s.xml">
+      <configuration name="ReviewConfirmationPo..." configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="uiReviewDetailsScr___() - 2019.05.02 at 10h 56m 15s.xml">
-      <configuration name="uiReviewDetailsScr...()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="uiReviewsConfirmat___() - 2019.05.03 at 14h 59m 03s.xml">
+      <configuration name="uiReviewsConfirmat...()" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="placeHolder() - 2019.05.02 at 10h 56m 34s.xml">
-      <configuration name="placeHolder()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="ReviewConfirmationPo___ - 2019.05.03 at 15h 00m 08s.xml">
+      <configuration name="ReviewConfirmationPo..." configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewDetailsScreen - 2019.05.02 at 10h 58m 09s.xml">
-      <configuration name="ReviewDetailsScreen" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="ReviewConfirmationPo___ - 2019.05.03 at 15h 00m 48s.xml">
+      <configuration name="ReviewConfirmationPo..." configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewDetailsScreen - 2019.05.02 at 11h 00m 26s.xml">
-      <configuration name="ReviewDetailsScreen" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="UI - 2019.05.03 at 15h 01m 06s.xml">
+      <configuration name="UI" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewDetailsScreen - 2019.05.02 at 11h 04m 14s.xml">
-      <configuration name="ReviewDetailsScreen" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="UI - 2019.05.03 at 15h 02m 31s.xml">
+      <configuration name="UI" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="uiReviewDetailsScr___() - 2019.05.02 at 11h 05m 26s.xml">
-      <configuration name="uiReviewDetailsScr...()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="UI - 2019.05.03 at 15h 03m 27s.xml">
+      <configuration name="UI" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="placeHolder() - 2019.05.02 at 11h 05m 42s.xml">
-      <configuration name="placeHolder()" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="UI - 2019.05.03 at 15h 04m 19s.xml">
+      <configuration name="UI" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewDetailsScreen - 2019.05.02 at 11h 05m 58s.xml">
-      <configuration name="ReviewDetailsScreen" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="UI - 2019.05.03 at 15h 05m 55s.xml">
+      <configuration name="UI" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="ReviewDetailsScreen - 2019.05.02 at 11h 07m 14s.xml">
-      <configuration name="ReviewDetailsScreen" configurationId="AndroidTestRunConfigurationType" />
+    <history-entry file="UI - 2019.05.03 at 15h 07m 38s.xml">
+      <configuration name="UI" configurationId="AndroidTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -894,10 +944,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1128" height="831" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="831" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.50208336" side_tool="true" weight="0.3297568" />
-      <window_info active="true" id="Project" order="1" sideWeight="0.49583334" visible="true" weight="0.42357275" />
+      <window_info active="true" id="Project" order="1" sideWeight="0.49583334" visible="true" weight="0.32904148" />
       <window_info id="Structure" order="2" sideWeight="0.50416666" side_tool="true" weight="0.32904148" />
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -910,9 +961,9 @@
       <window_info anchor="bottom" id="TODO" order="2" sideWeight="0.49928468" weight="0.32960895" />
       <window_info anchor="bottom" id="Android Profiler" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49928468" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50091743" side_tool="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.4972477" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49908257" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50276244" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.49723756" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.49908257" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.32960895" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -946,13 +997,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/EditRating.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/EditRating.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/screens/ReviewConfirmation.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -967,13 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/util/mockDataConstants/MockReviewDetails.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -994,16 +1032,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#23#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/NavigateUpDescribe.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-920">
@@ -1017,16 +1045,6 @@
           <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
             <element signature="e#63#698#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewsMainScreen.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1460">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-          <folding>
-            <element signature="e#52#927#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1148,26 +1166,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/SaveDescribeName.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding>
-            <element signature="e#63#1206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-          <folding>
-            <element signature="e#52#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/SaveDescribeName.kt" />
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/functionality/BackDescribe.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1211,15 +1210,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewDetailsScreen.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="221">
+          <caret line="33" column="14" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/util/mockDataConstants/MockReviewDetails.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewConfirmationPopUp.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding>
+            <element signature="e#52#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/testsuites/UI.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/tests/ui/ReviewsMainScreen.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1520">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+          <folding>
+            <element signature="e#52#964#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/androidTest/kotlin/com/hitta/android/assignment/main/base/rules/BaseTestRule.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="30" column="10" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="375">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>

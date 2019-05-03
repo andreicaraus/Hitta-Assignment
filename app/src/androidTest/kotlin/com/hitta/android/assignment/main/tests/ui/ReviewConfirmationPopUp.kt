@@ -5,6 +5,9 @@ import android.support.test.runner.AndroidJUnit4
 import com.hitta.android.assignment.main.MainActivity
 import com.hitta.android.assignment.main.base.rules.BaseTestRule
 import com.hitta.android.assignment.main.screens.ReviewConfirmation
+import com.hitta.android.assignment.main.screens.ReviewDetails
+import com.hitta.android.assignment.main.screens.ReviewsMain
+import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -20,6 +23,12 @@ class ReviewConfirmationPopUp {
     @Rule
     @JvmField
     var mActivityTestRule = BaseTestRule(MainActivity::class.java)
+
+    @Before
+    fun runBefore() {
+        ReviewsMain().bigRatingBar { click() }
+        ReviewDetails().save { click() }
+    }
 
 
     /**************

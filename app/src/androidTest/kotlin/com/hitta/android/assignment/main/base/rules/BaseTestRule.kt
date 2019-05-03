@@ -1,10 +1,8 @@
 package com.hitta.android.assignment.main.base.rules
 
 import android.app.Activity
-import android.content.Intent
 import android.support.test.InstrumentationRegistry
 import android.support.test.rule.ActivityTestRule
-import java.sql.Time
 import java.util.concurrent.TimeUnit
 
 /*

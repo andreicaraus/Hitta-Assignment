@@ -20,7 +20,7 @@ import org.junit.runners.Suite
     NavigateUpNameDescribe::class,
     NavigateUpStar::class,
     SaveDescribe::class,
-    SaveDescribeName::class,
+    SaveNameDescribe::class,
     SaveStar::class,
     StarRating::class
 ])

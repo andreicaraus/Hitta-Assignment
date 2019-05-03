@@ -14,6 +14,7 @@ import com.hitta.android.assignment.main.util.mockDataConstants.MockReviewsMain.
 import com.hitta.android.assignment.main.util.util.NestedScrollTo.nestedScrollTo
 import com.hitta.android.assignment.main.util.util.UtilReviewsMain.Companion.reviewsMainViewReviewsBottom
 import org.junit.Rule
+import java.util.concurrent.TimeUnit
 
 /*
  * Created by Andrei Caraus on 24.04.2019.
@@ -106,7 +107,11 @@ class ReviewsMainScreen {
 
     fun uiReviewsMainScreenCommon() {
         ReviewsMain().appName { isDisplayed() }
+
+        //Workaround for this particular text, the tests fail randomly without this timeout
+        TimeUnit.MILLISECONDS.sleep(1000)
         ReviewsMain().reviewsShopName { isDisplayed() }
+
         ReviewsMain().averageRating { isDisplayed() }
         ReviewsMain().numberRatings { isDisplayed() }
         ReviewsMain().viewReviewsTop { isDisplayed() }
