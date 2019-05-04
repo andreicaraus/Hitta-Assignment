@@ -5,13 +5,14 @@ import android.support.test.runner.AndroidJUnit4
 import com.hitta.android.assignment.main.MainActivity
 import com.hitta.android.assignment.main.base.rules.BaseTestRule
 import com.hitta.android.assignment.main.screens.ReviewDetails
-import com.hitta.android.assignment.main.screens.ReviewsMain
 import com.hitta.android.assignment.main.util.mockDataConstants.MockReviewDetails.Companion.COMMENTHINT
 import com.hitta.android.assignment.main.util.mockDataConstants.MockReviewDetails.Companion.NAMEHINT
 import com.hitta.android.assignment.main.util.util.SetRating.Companion.setRating
 import com.hitta.android.assignment.main.util.util.UtilCommon.Companion.isNotVisible
 import com.hitta.android.assignment.main.util.util.UtilCommon.Companion.isVisible
+import com.hitta.android.assignment.main.util.util.UtilCommon.Companion.starsMain
 import com.hitta.android.assignment.main.util.util.UtilReviewDetails.Companion.reviewDetailsRatingBar
+import com.hitta.android.assignment.main.util.util.UtilReviewsMain.Companion.reviewsMainBigRatingBar
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -31,7 +32,7 @@ class ReviewDetailsScreen {
 
     @Before
     fun runBefore() {
-        ReviewsMain().bigRatingBar { click() }
+        reviewsMainBigRatingBar.perform(setRating(starsMain))
     }
 
 

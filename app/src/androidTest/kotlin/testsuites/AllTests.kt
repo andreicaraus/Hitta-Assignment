@@ -15,6 +15,9 @@ import org.junit.runners.Suite
 @Suite.SuiteClasses(value =
 
 [
+    ReviewsMainScreen::class,
+    ReviewDetailsScreen::class,
+    ReviewConfirmationPopUp::class,
     BackDescribe::class,
     BackNameDescribe::class,
     BackStar::class,
@@ -25,10 +28,7 @@ import org.junit.runners.Suite
     SaveDescribe::class,
     SaveNameDescribe::class,
     SaveStar::class,
-    StarRating::class,
-    ReviewConfirmationPopUp::class,
-    ReviewDetailsScreen::class,
-    ReviewsMainScreen::class
+    StarRating::class
 ])
 
 class AllTests

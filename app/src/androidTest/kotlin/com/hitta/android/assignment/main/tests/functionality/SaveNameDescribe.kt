@@ -80,7 +80,7 @@ class SaveNameDescribe {
     }
 
     @Test
-    fun naemDescribeStarNameSave() {
+    fun nameDescribeStarNameSave() {
         Save.starNameSave()
         mainName2Describe()
     }

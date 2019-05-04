@@ -12,9 +12,9 @@ import org.junit.runners.Suite
 @Suite.SuiteClasses(value =
 
 [
-    ReviewConfirmationPopUp::class,
+    ReviewsMainScreen::class,
     ReviewDetailsScreen::class,
-    ReviewsMainScreen::class
+    ReviewConfirmationPopUp::class
 ])
 
 class UI

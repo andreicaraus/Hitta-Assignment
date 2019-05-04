@@ -6,7 +6,9 @@ import com.hitta.android.assignment.main.MainActivity
 import com.hitta.android.assignment.main.base.rules.BaseTestRule
 import com.hitta.android.assignment.main.screens.ReviewConfirmation
 import com.hitta.android.assignment.main.screens.ReviewDetails
-import com.hitta.android.assignment.main.screens.ReviewsMain
+import com.hitta.android.assignment.main.util.util.SetRating.Companion.setRating
+import com.hitta.android.assignment.main.util.util.UtilCommon.Companion.starsMain
+import com.hitta.android.assignment.main.util.util.UtilReviewsMain.Companion.reviewsMainBigRatingBar
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
@@ -26,7 +28,7 @@ class ReviewConfirmationPopUp {
 
     @Before
     fun runBefore() {
-        ReviewsMain().bigRatingBar { click() }
+        reviewsMainBigRatingBar.perform(setRating(starsMain))
         ReviewDetails().save { click() }
     }
 

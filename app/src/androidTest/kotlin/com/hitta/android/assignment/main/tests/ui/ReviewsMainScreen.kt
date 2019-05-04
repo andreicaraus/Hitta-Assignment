@@ -12,6 +12,9 @@ import com.hitta.android.assignment.main.screens.ReviewDetails
 import com.hitta.android.assignment.main.util.mockDataConstants.MockReviewsMain.Companion.ANONYMOUS
 import com.hitta.android.assignment.main.util.mockDataConstants.MockReviewsMain.Companion.MOCKCOMMENTSHORT
 import com.hitta.android.assignment.main.util.util.NestedScrollTo.nestedScrollTo
+import com.hitta.android.assignment.main.util.util.SetRating.Companion.setRating
+import com.hitta.android.assignment.main.util.util.UtilCommon.Companion.starsMain
+import com.hitta.android.assignment.main.util.util.UtilReviewsMain.Companion.reviewsMainBigRatingBar
 import com.hitta.android.assignment.main.util.util.UtilReviewsMain.Companion.reviewsMainViewReviewsBottom
 import org.junit.Rule
 import java.util.concurrent.TimeUnit
@@ -57,7 +60,7 @@ class ReviewsMainScreen {
 
     @Test
     fun uiReviewsMainScreenStarRating(){
-        ReviewsMain().bigRatingBar { click() }
+        reviewsMainBigRatingBar.perform(setRating(starsMain))
         ReviewDetails().navigateUp { click() }
 
         ReviewsMain().yourReviewHeader { isDisplayed()}
@@ -81,7 +84,7 @@ class ReviewsMainScreen {
 
     @Test
     fun uiReviewsMainScreenReview(){
-        ReviewsMain().bigRatingBar { click() }
+        reviewsMainBigRatingBar.perform(setRating(starsMain))
         ReviewDetails().commentEdit { typeText(MOCKCOMMENTSHORT) }
         ReviewDetails().save { click() }
         ReviewConfirmation().alertYes { click() }
@@ -109,7 +112,7 @@ class ReviewsMainScreen {
         ReviewsMain().appName { isDisplayed() }
 
         //Workaround for this particular text, the tests fail randomly without this timeout
-        TimeUnit.MILLISECONDS.sleep(1000)
+        TimeUnit.MILLISECONDS.sleep(2300)
         ReviewsMain().reviewsShopName { isDisplayed() }
 
         ReviewsMain().averageRating { isDisplayed() }

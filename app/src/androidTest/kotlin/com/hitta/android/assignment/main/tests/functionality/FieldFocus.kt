@@ -6,10 +6,12 @@ import com.hitta.android.assignment.main.MainActivity
 import com.hitta.android.assignment.main.base.rules.BaseTestRule
 import com.hitta.android.assignment.main.screens.ReviewDetails
 import com.hitta.android.assignment.main.screens.ReviewsMain
+import com.hitta.android.assignment.main.util.util.SetRating.Companion.setRating
+import com.hitta.android.assignment.main.util.util.UtilCommon.Companion.starsMain
+import com.hitta.android.assignment.main.util.util.UtilReviewsMain.Companion.reviewsMainBigRatingBar
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import java.util.concurrent.TimeUnit
 
 /*
  * Created by Andrei Caraus on 24.04.2019.
@@ -32,8 +34,7 @@ class FieldFocus {
 
     @Test
     fun fieldFocus() {
-        TimeUnit.SECONDS.sleep(3)
-        ReviewsMain().bigRatingBar { click() }
+        reviewsMainBigRatingBar.perform(setRating(starsMain))
         ReviewDetails().nameEdit { isFocused() }
         ReviewDetails().navigateUp { click() }
         ReviewsMain().yourReviewDescribe { click() }
