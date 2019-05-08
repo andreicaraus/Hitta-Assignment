@@ -26,10 +26,6 @@ class StarRating {
     @JvmField
     var mActivityTestRule = BaseTestRule(MainActivity::class.java)
 
-    @Before
-    fun runBefore() {
-    }
-
 
     /**************
      * DESCRIPTION:
